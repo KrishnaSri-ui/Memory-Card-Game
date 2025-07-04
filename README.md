@@ -15,10 +15,8 @@ A fun and interactive memory matching card game built using **HTML, CSS, and Jav
 -  Victory Celebration Screen  
 
 ---
-```markdown
-
 ## Project Structure
-
+```markdown
 memory-card-game/
 │
 ├── index.html       # Main HTML structure for the game
