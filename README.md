@@ -1,6 +1,6 @@
 # Memory-Card-Game
 
-A fun and interactive memory matching card game built using **HTML, CSS, and JavaScript**. The game challenges players to match pairs of cards with symbols like ❤️ ♦️ ♠️ ♣️ 🌲 ⚽. It features a timer, move counter, score tracker, card flip animations, and a celebratory "You Won!" screen upon victory.
+A fun and interactive memory matching card game built using **HTML, CSS, and JavaScript**. The game challenges players to match pairs of cards with symbols. It features a timer, move counter, score tracker, card flip animations, and a celebratory "You Won!" screen upon victory.
 
 ---
 
