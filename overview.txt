@@ -1,0 +1,105 @@
+ This is a Memory Card Game where the user flips over cards to find matching pairs. The game tracks time, score, and number of moves, and celebrates with an animation when the player wins.
+
+1. HTML – Structure
+The HTML lays out the structure of the game on the page.
+
+🔹 Key Sections:
+Title (<h1>)
+Displays the game’s name: Memory Card Game.
+
+Stats Section (<div class="stats">)
+Shows real-time updates of:
+
+Timer – how long the user has been playing.
+
+Moves – how many times the player has flipped cards in total.
+
+Score – how many successful matches the user has made.
+
+Game Board (<div class="game-board">)
+This is the main grid where the cards are rendered dynamically with JavaScript.
+
+Restart Button
+Allows the player to reset the game completely and start over.
+
+2. CSS – Styling & Animation
+The CSS makes the game visually appealing and responsive across devices.
+
+🔹 What It Does:
+Layout Styling
+Centers the content, styles the board grid, and adds spacing and fonts.
+
+Card Styling
+Each card has two sides:
+
+A front side (hidden face showing a ?)
+A back side (reveals a symbol like ♥, ♠, 🌳, etc.)
+
+Flip Animation
+When a card is clicked, it rotates smoothly to reveal the back using a 3D transform.
+
+Responsive Design
+The game board adapts to various screen sizes, including phones and tablets.
+
+Victory Celebration
+When the user wins, a celebration message pops up, and animated confetti falls using CSS animations.
+
+3. JavaScript – Logic & Interaction
+JavaScript controls the behavior and logic of the game.
+
+🔹 Game Setup:
+Symbols Setup
+Defines a list of unique symbols and duplicates them to form card pairs.
+
+Shuffling
+Randomizes card positions each time the game starts or is reset.
+
+Card Creation
+Dynamically generates the card elements and adds them to the board.
+
+🔹 Game Logic:
+Card Flip Handling
+
+Tracks the first and second cards clicked.
+Prevents more than two cards from flipping at once.
+Compares the two flipped cards to check for a match.
+
+Match Check & Score Update
+If the symbols match, cards remain flipped and score increases.
+If not, they flip back after a short delay.
+
+Move Counter
+Increments each time the user flips a second card in a turn.
+
+Timer Functionality
+Starts when the player flips their first card.
+Increments every second and displays elapsed time.
+
+🔹 Win Detection & Celebration:
+When all pairs are matched:
+
+The timer stops.
+
+A “You Won” message appears on screen.
+Confetti animation is triggered using DOM elements and CSS.
+
+🔹 Restart Function:
+Clears timer and score.
+Resets board state and reshuffles cards.
+Removes any celebration messages or animations.
+
+✅ Summary of Features
+Feature	Description
+Card Flip	   -  Smooth 3D animation reveals hidden symbol
+Match Logic	   -  Compares pairs, locks matched cards
+Score System   -  Increases for each correct pair
+Move Counter   -  Tracks player moves for scoring
+Timer	       -  Starts on first flip, stops when all pairs are matched
+Restart Button -  Resets the game at any time
+Win Celebration	Shows message + confetti on full match
+
+Responsive Design
+The entire layout adjusts based on screen size:
+
+On phones: the cards resize and stack neatly
+On desktops: wider grid spacing and larger fonts
