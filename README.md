@@ -47,10 +47,10 @@ memory-card-game/
 Modify the number of cards in `index.html` by adding or removing card elements.
 
 ### 2. Change Symbols  
-Open `script.js` and update the symbols 
+Open `script.js` and update the symbols. 
 
 ### 3. Customize Styles
-Edit style.css to change:Background colors,Card animations,Font styles
+Edit style.css to change: Background colors,Card animations,Font styles.
 
 ---
 
