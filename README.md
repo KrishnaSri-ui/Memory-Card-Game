@@ -4,7 +4,7 @@ A fun and interactive memory matching card game built using **HTML, CSS, and Jav
 
 ---
 
-#  Features
+##  Features
 
 -  Interactive Gameplay  
 -  Responsive Design  
@@ -20,10 +20,9 @@ A fun and interactive memory matching card game built using **HTML, CSS, and Jav
 
 memory-card-game/
 │
-├── index.html # HTML layout and game structure
-├── style.css # Styling, animations, and responsive design
-└── script.js # Game logic, card matching, timer, score, interactivity
-
+├── index.html       # Main HTML structure for the game
+├── style.css        # All styling, layout, and animations
+└── script.js        # JavaScript for game logic, timer, score, and interactivity
 
 
 ---
@@ -62,5 +61,5 @@ This project is free to use, modify, and share.Have fun building and customizing
 ---
 
 ## Credits
-Built by Krishna sri Kondeti
+Built by Krishna sri Kondeti.
 Inspired by classic memory games and modern web design trends.
