@@ -1,39 +1,76 @@
 # Memory-Card-Game
 
+A fun and interactive memory matching card game built using **HTML, CSS, and JavaScript**. The game challenges players to match pairs of cards with symbols like ❤️ ♦️ ♠️ ♣️ 🌲 ⚽. It features a timer, move counter, score tracker, card flip animations, and a celebratory "You Won!" screen upon victory.
+
 ---
 
-###Introduction
-A fun and interactive memory matching card game built using HTML, CSS, and JavaScript. The game challenges players to match pairs of cards with symbols like hearts, diamonds, spades, clubs, trees, and spheres. It features a timer, move counter, score tracker, card flip animations, and a celebratory "You Won!" screen on victory.
+## 🚀 Features
+
+- 🧩 Interactive Gameplay  
+- 📱 Responsive Design  
+- 👆 Manual Card Navigation  
+- 🎞️ Smooth Flip Animations  
+- ⏱️ Live Timer  
+- 🎨 Customizable UI  
+- 🏆 Victory Celebration Screen  
+
 ---
-###Features
--Interactive Gameplay
--Responsive Design
--Manual Card Navigation
--Smooth Animations
--Live Timer
--Customizable UI
----
-###Project Structure
+
+## 📁 Project Structure
+
 memory-card-game/
 │
-├── index.html       # HTML layout and game structure
-├── style.css        # All styling, animations, and responsive design
-└── script.js        # Game logic, card matching, timer, score, and interactivity
+├── index.html # HTML layout and game structure
+├── style.css # Styling, animations, and responsive design
+└── script.js # Game logic, card matching, timer, score, interactivity
+
+yaml
+Copy
+Edit
+
 ---
-###How to use
-1.Open the webiste:memory-card-game-ks.netlify.app
-2.Start Playing
-Click any two cards to flip and match them. Try to match all cards in the fewest moves and shortest time!
-3.Restart Anytime
-Click the “🔁 Restart” button at the bottom to reset the game.
+
+## ▶️ How to Play
+
+1. **Open the Website:**  
+   [https://memory-card-game-ks.netlify.app](https://memory-card-game-ks.netlify.app)
+
+2. **Start Matching:**  
+   - Click on any two cards to flip them.  
+   - Match the symbols to score!  
+   - Complete the game in the fewest moves and shortest time.
+
+3. **Restart Anytime:**  
+   - Click the **🔁 Restart** button at the bottom to reset the game.
+
 ---
-###Customization
-1.Change Number of Cards
-Open index.html and adjust the card elements.
-2.Change Symbols
-In script.js, update the symbols array:const symbols = ['❤️','♦️','♠️','♣️','🌲','⚽']; // Replace or add more
-3. 🎨 Customize Styles
-Modify style.css to:Change background colors,add themes,update font styles and animations
----
-###License
-This project is free to use and modify.
+
+## ⚙️ Customization
+
+### 1. Change Number of Cards  
+Modify the number of cards in `index.html` by adding or removing card elements.
+
+### 2. Change Symbols  
+Open `script.js` and update the symbols array:
+
+```javascript
+const symbols = ['❤️','♦️','♠️','♣️','🌲','⚽'];
+Feel free to replace or add new emoji symbols.
+
+3. Customize Styles
+Edit style.css to change:
+
+Background colors
+
+Card animations
+
+Font styles
+
+Themes and layouts
+
+📜 License
+This project is free to use, modify, and share. No attribution required — have fun building and customizing your own version!
+
+🙌 Credits
+Built by Krishna sri Kondeti
+Inspired by classic memory games and modern web design trends.
