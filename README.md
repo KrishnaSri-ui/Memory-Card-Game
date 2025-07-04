@@ -34,4 +34,3 @@ Modify style.css to:Change background colors,add themes,update font styles and a
 
 License
 This project is free to use and modify.
-
