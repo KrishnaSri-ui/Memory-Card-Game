@@ -4,7 +4,7 @@ A fun and interactive memory matching card game built using **HTML, CSS, and Jav
 
 ---
 
-##  Features
+#  Features
 
 -  Interactive Gameplay  
 -  Responsive Design  
