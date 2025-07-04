@@ -17,11 +17,12 @@ A fun and interactive memory matching card game built using **HTML, CSS, and Jav
 ---
 
 ##  Project Structure
-**memory-card-game**
+memory-card-game/
 │
 ├── index.html       # Main HTML structure for the game
 ├── style.css        # All styling, layout, and animations
 └── script.js        # JavaScript for game logic, timer, score, and interactivity
+
 
 ---
 
